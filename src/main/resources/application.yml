@@ -1,0 +1,13 @@
+server:
+  servlet:
+    context-path: /demo
+  port: 8888
+  compression:
+    enabled: on
+    min-response-size: 100KB
+    mime-types: application/json
+spring:
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
